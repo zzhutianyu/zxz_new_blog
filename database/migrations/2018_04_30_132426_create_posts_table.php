@@ -20,7 +20,7 @@ class CreatePostsTable extends Migration
             $table->text('html_content');
             $table->integer('view')->default(0);
             $table->integer('like')->default(0);
-            $table->text('ext');
+            $table->text('ext')->nullable();
             $table->timestamps();
         });
     }
