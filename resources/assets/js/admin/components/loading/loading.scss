@@ -1,0 +1,21 @@
+.loading-wrap {
+  min-height: 100%;
+  width: 100%;
+  .ant-spin-text {
+    letter-spacing: 3px;
+    color: #495060;
+  }
+  .ant-spin-dot i{
+    background-color: #495060;
+  }
+  .ant-spin-blur{
+    opacity:0;
+  }
+  .ant-spin-spinning{
+    background-color: #fff;
+  }
+  .ant-spin-container {
+    width: 100%;
+
+  }
+}

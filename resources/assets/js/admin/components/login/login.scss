@@ -1,0 +1,23 @@
+
+.login-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  width: 100%;
+
+  .login {
+    display: flex;
+    //height: 500px;
+    width: 600px;
+    //background: #0000F0;
+
+    .login-form {
+      min-width: 600px;
+
+      .login-form-button {
+        width: 100%;
+      }
+    }
+  }
+}
