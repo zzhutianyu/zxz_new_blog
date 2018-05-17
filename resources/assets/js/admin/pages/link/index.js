@@ -123,7 +123,7 @@ class Link extends Component {
         };
     }
 
-    onUrlChange = (key, dataIndex) => {
+    onUrlChange = (id, dataIndex) => {
         return async(value) => {
             const data = [...this.state.data]
             const target = data.find(item => item.id === id);
