@@ -7,7 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="google" content="notranslate"/>
-    <title>zhutianyu</title>
+    <title>诸兴天域</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
     <meta name="author" content="LoeiFy">

@@ -4,7 +4,7 @@ const host = process.env.DEV_HOST || 'localhost'
 const devPort = process.env.DEV_PORT || '8000'
 const devUrl = `http://${host}:${devPort}`
 
-const serverUrl = 'http://127.0.0.1:8000/'
+const serverUrl = 'https://www.zhuxingzhao.com/'
 
 
 export default function API(name, params = {}, ext = {}) {
