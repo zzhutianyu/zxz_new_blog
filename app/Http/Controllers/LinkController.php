@@ -46,7 +46,7 @@ class LinkController extends Controller
     public function changeUrl(Request $request) {
         $id = $request->get('id');
         $link = Link::where('id', $id)->first();
-        $link->name = $request->get('url');
+        $link->url = $request->get('url');
         $link->save();
         return RJM(null,1, 'success');
     }
