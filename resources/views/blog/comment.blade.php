@@ -56,8 +56,8 @@
             <p class="comment-form-email"><label for="email">电子邮件 <span class="required">*</span></label> <input
                         id="email" name="email" type="text" value="" size="30" maxlength="100"
                         aria-describedby="email-notes" required="required"></p>
-                    @isset($id)
-            <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="发表评论"> <input
+
+            <p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="发表评论"> @isset($id)<input
                         type="hidden" name="comment_post_id" value="{{ $id }}" id="comment_post_ID">
                     @endisset
                 <input type="hidden" name="comment_parent" id="comment_parent" value="0">
