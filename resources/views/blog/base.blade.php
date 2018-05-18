@@ -43,7 +43,6 @@
 <script src="{{ asset('js/jquery.min.js') }}"></script>
 <script src="{{ asset('js/plugin.js') }}"></script>
 <script src="{{ asset('js/Diaspora.js') }}"></script>
-<canvas width="1842" height="1036"></canvas>
 </body>
 </html>
 
